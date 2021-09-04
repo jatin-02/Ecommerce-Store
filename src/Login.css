@@ -1,0 +1,85 @@
+a {
+  text-decoration: none;
+}
+
+.login {
+  background-color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.login_container {
+  margin-top: 40px;
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.login_container h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.login_container form h5 {
+  margin-bottom: 5px;
+}
+
+.login_container form input {
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 98%;
+  border-color: rgb(131, 131, 131);
+}
+
+.login_container p {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.login_signInButton {
+  color: #fff;
+  background: #f0c14b;
+  border-radius: 2px;
+  width: 25%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  margin-left: 93px;
+  border-radius: 5px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.login_signInButton:hover {
+  color: #fff;
+  background-color: rgb(255, 17, 0);
+  border-color: rgb(255, 17, 0);
+  cursor: pointer;
+}
+
+.login_registerButton {
+  font-weight: 600;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid #f0c14b;
+  margin-top: 10px;
+  color: #f0c14b;
+  background: #fff;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.login_registerButton:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: rgb(255, 17, 0);
+  border-color: rgb(255, 17, 0);
+}

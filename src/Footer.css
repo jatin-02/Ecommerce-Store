@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+li {
+  text-decoration: none;
+}
+
+hr {
+  margin-left: 175px;
+  width: 75%;
+  height: 2px !important;
+  color: white;
+}
+
+.footer {
+  color: #fff;
+  background-color: black;
+  margin-top: 70px;
+  margin-bottom: -15px;
+}
+
+.footer .brand {
+  text-align: center;
+}
+
+.footer .brand span {
+  color: crimson;
+}
+
+.list h4 {
+  margin-left: 30px;
+}
+
+.lists {
+  display: flex;
+  margin-top: 10px;
+}
+
+.list {
+  margin-top: 30px;
+  padding-left: 200px;
+}
+
+.list h4 {
+  margin-bottom: 20px;
+}
+
+.lists li {
+  display: flex;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.logos {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: -70px;
+  text-align: center;
+}
+
+.logo:hover {
+  color: crimson;
+}
+
+.logo {
+  padding-left: 30px;
+  color: #f0c14b;
+}
+
+.copyright {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.copyright span {
+  color: crimson;
+}
+
+@media (max-width: 910px) {
+  .footer {
+    width: 100%;
+  }
+  .list {
+    padding-left: 100px;
+  }
+}
+
+@media (max-width: 650px) {
+  .footer {
+    width: 155%;
+  }
+}
+
+@media (max-width: 540px) {
+  .footer {
+    width: 168%;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer {
+    width: 212%;
+  }
+}
+
+@media (max-width: 400px) {
+  .footer {
+    width: 232%;
+  }
+}
+
+@media (max-width: 350px) {
+  .footer {
+    width: 290%;
+  }
+}

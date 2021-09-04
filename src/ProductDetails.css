@@ -1,0 +1,92 @@
+.productDetails {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 7rem;
+  /* box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.15); */
+}
+
+.productImage {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #fff;
+  height: 25rem;
+}
+
+.productImage img {
+  object-fit: contain;
+  height: 100%;
+}
+
+.productInfo {
+}
+
+.productTitle {
+  font-size: 35px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.productPrice {
+  font-size: 25px;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.productPrice strong {
+  font-size: 40px;
+}
+
+.productTax {
+  margin-bottom: 10px;
+}
+
+.productRating {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.productRating p {
+  font-size: 25px;
+  color: rgb(148, 149, 150);
+}
+
+.productDescription {
+  line-height: 150%;
+  width: 60%;
+}
+
+.addToBasketBtn {
+  margin-top: 40px;
+}
+
+.productFacility {
+  margin-top: 10px;
+  line-height: 200%;
+}
+
+.productFacility_icon {
+  color: black;
+}
+
+.addToBasketBtn button {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 15px;
+  margin-top: -20px;
+  border: solid 1px rgb(252, 65, 32);
+  border-radius: 5px;
+  color: #fff;
+  background-color: rgb(252, 65, 32);
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+.addToBasketBtn button:hover {
+  border: solid 1.5px rgb(253, 39, 2);
+  border-radius: 5px;
+  color: #fff;
+  background: rgb(253, 39, 2);
+}
+

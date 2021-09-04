@@ -1,0 +1,44 @@
+.menuP {
+  display: flex;
+  /* margin-left: auto;
+  margin-right: auto; */
+  color: black;
+}
+
+.menuP:hover {
+  color: black;
+}
+
+.menu1P_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  z-index: -1;
+}
+.menu2P_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 51%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  z-index: -1;
+}
+.menu3P_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 49%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  z-index: -1;
+}
+
+.menuP_product {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1rem 2rem;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
