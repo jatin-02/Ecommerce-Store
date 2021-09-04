@@ -27,7 +27,6 @@ function Subtotal() {
             <small className="subtotal_gift">
               <p>{basket?.length == 0 ? "" : "Hurray ! Free Delivery"}</p>
             </small>
-            {/* <p className="shippingCharges">Shipping Charges = 20</p> */}
             <br />
           </>
         )}
