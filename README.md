@@ -1,7 +1,7 @@
-<p float="left">
+
   <img src="web_images/web9_1.png" />
+  
   <img src="web_images/web9_2.png" /> 
-</p>
 
 
 # Getting Started with Create React App
