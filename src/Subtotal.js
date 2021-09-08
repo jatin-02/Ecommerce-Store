@@ -21,7 +21,7 @@ function Subtotal() {
               <p>
                 {basket?.length == 0
                   ? "Add items to cart"
-                  : "Order is eligible for return"}
+                  : "Hurrah! Order is eligible for return"}
               </p>
             </small>
             <small className="subtotal_gift">
