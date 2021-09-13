@@ -1,3 +1,17 @@
+
+  <img src="web_images/web9_1.png" />
+  
+  <img src="web_images/web9_2.png" />
+  
+  <img src="web_images/web9_3.png" />
+  
+  <img src="web_images/web9_4.png" />
+  
+  <img src="web_images/web9_5.png" />
+  
+  <img src="web_images/web9_6.png" />
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
